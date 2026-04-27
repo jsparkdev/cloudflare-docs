@@ -135,8 +135,8 @@ importers:
         specifier: 0.0.6
         version: 0.0.6
       astro-skills:
-        specifier: 0.0.5
-        version: 0.0.5(astro@6.0.5(@types/node@24.6.0)(jiti@2.6.1)(lightningcss@1.29.2)(rollup@4.60.1)(tsx@4.20.5)(typescript@5.9.3)(yaml@2.8.3))(typescript@5.9.3)
+        specifier: 0.1.0
+        version: 0.1.0(astro@6.0.5(@types/node@24.6.0)(jiti@2.6.1)(lightningcss@1.29.2)(rollup@4.60.1)(tsx@4.20.5)(typescript@5.9.3)(yaml@2.8.3))(typescript@5.9.3)
       cidr-tools:
         specifier: 11.0.3
         version: 11.0.3
@@ -3141,8 +3141,8 @@ packages:
   astro-live-code@0.0.6:
     resolution: {integrity: sha512-s8rnHk7ADXBKikCJuHmSclRs5EcYoMUofHo8vcbPRieEFD/26JQReVIARBh+IBppwrrhc1gv2tP5ly3x7LQ5sQ==}
 
-  astro-skills@0.0.5:
-    resolution: {integrity: sha512-LHUKqmKD5Cit+JeKrzxwf1/ojDDf7Z7/mEoEvQepVGlEka1kQR0RTGHxiJTuyCii+dzLwpDpcFt+klmjV5XEOQ==}
+  astro-skills@0.1.0:
+    resolution: {integrity: sha512-Xa+sltSMMZEoJB4L3kn8fqRbQMogApQOIMq+P9Fi2lX/CTvComvplFgm/O+zPbIpdrCz3KGs9bdiZkHfzxApqQ==}
     peerDependencies:
       astro: '*'
       typescript: ^5.9.3
@@ -10031,12 +10031,13 @@ snapshots:
       magic-string: 0.30.21
       unist-util-visit-parents: 6.0.2
 
-  astro-skills@0.0.5(astro@6.0.5(@types/node@24.6.0)(jiti@2.6.1)(lightningcss@1.29.2)(rollup@4.60.1)(tsx@4.20.5)(typescript@5.9.3)(yaml@2.8.3))(typescript@5.9.3):
+  astro-skills@0.1.0(astro@6.0.5(@types/node@24.6.0)(jiti@2.6.1)(lightningcss@1.29.2)(rollup@4.60.1)(tsx@4.20.5)(typescript@5.9.3)(yaml@2.8.3))(typescript@5.9.3):
     dependencies:
       astro: 6.0.5(@types/node@24.6.0)(jiti@2.6.1)(lightningcss@1.29.2)(rollup@4.60.1)(tsx@4.20.5)(typescript@5.9.3)(yaml@2.8.3)
       gray-matter: 4.0.3
       p-limit: 6.2.0
       picomatch: 4.0.4
+      tar: 7.5.13
       tinyglobby: 0.2.15
       typescript: 5.9.3
 
